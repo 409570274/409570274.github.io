@@ -6,19 +6,30 @@
     <h1 class="heading" style="color: darkblue">Q-Cat Shop</h1>
   </head>
   <body>
-    <img src="https://i1.sndcdn.com/avatars-000600452151-38sfei-t500x500.jpg" alt="cute cat" style="color: chocolate" height="250" width="250" border="2">
+    <img src="https://i1.sndcdn.com/avatars-000600452151-38sfei-t500x500.jpg" alt="cute cat" >
+    <style>
+      img {
+        height: 250px; width:250px; 
+        border: 2px solid chocolate;
+      } 
+    </style>
     <h2 style="color: darkcyan">Type</h2>
     <div>
-    <center><table style="color: darkgreen" font-size="30" >
-      <tr> <td>gray cat-KiKi</td> </tr>
-      <tr> <td>white cat-MiMi</td> </tr>
-      <tr> <td>black cat-LaLa</td> </tr>
+    <center><table style="color: darkgreen" name="type">
+      <sytle>
+        table.type {
+          font-size: 30px;
+        }
+        </style>
+      <tr> <td><strong>gray cat-KiKi</strong></td> </tr>
+      <tr> <td><strong>white cat-MiMi</strong></td> </tr>
+      <tr> <td><strong>black cat-LaLa</strong></td> </tr>
     </table>
     </center>
     </div>
     <div>
-    <table border-style="double" border-width="20" font-style="oblique">
-    <thead style="color: rgb(161, 118, 201)" font-size="25px">
+    <table name="table">
+    <thead style="color: rgb(161, 118, 201)">
     <tr>      
         <th>Type</th>
         <th>Price</th>
@@ -32,6 +43,14 @@
     <tr> <td>White</td><td>$300</td> </tr> 
     <tr> <td>Gray</td><td>$100</td>  </tr>
   </tbody>
+         <sytle>
+        table.table {
+          font-size: 30px;
+          font-style: oblique;
+          border-width: 20px;
+          border-style: double;
+        }
+        </style>
       </div>
 </table>
     <br>

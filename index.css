@@ -8,7 +8,6 @@ h2 {
 
 ol {
   font-size: 20px;
-  color: darkgreen;
 }
 
 .heading {
@@ -18,7 +17,7 @@ ol {
 table {
   font-style: oblique;
   border-style: double;
-  border-width: 20px;
+  border: 5px solid lightblue;
 }
 
 thead {

@@ -18,6 +18,7 @@ table {
   font-style: oblique;
   border-style: double;
   border: 5px solid lightblue;
+  color: darkgreen;
 }
 
 thead {

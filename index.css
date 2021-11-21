@@ -1,6 +1,9 @@
 * {
   background-color: blanchedalmond;
 }
+.heading {
+  color: cadetblue;
+}
 
 h2 {
   color: darkcyan;
@@ -10,14 +13,10 @@ ol {
   font-size: 20px;
 }
 
-.heading {
-  color: darkgoldenrod;
-}
-
-table {
+table, th, td {
   font-style: oblique;
   border-style: double;
-  border: 5px solid lightblue;
+  border: 2px solid chocolate;
   color: darkgreen;
 }
 
@@ -28,4 +27,9 @@ thead {
 
 tbody {
   font-size: 20px;
+}
+img{
+  height: 250px; 
+  width:250px; 
+  border: 10px solid chocolate;
 }

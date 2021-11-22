@@ -1,48 +1,36 @@
-<!DOCTYPE html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="index.css">
+
+
 <html>
   <head>
-    <center>
-    <meta charset="UTF-8">
-      <link href='index.css' rel='stylesheet'>
-    <h1 class="heading">Q-Cat Shop</h1>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
-        
-        $(document).ready(function(){
-            $("#btn").click(function(){
-            $("#cat1").fadeToggle("slow");
-            });
+      $(document).ready(function() {
+      
+        $('#click').click(function(){
+          $('#cat2').animate({width:'toggle'},1000);
+          $("#cat1").animate({width:'toggle'},1000);
         });
-    
+        });
     </script>
   </head>
-  <body>
+<body>
+  <title>Q-cat</title>
+  <main>
+    <h2 class="title" >Q-cat</h2>   
     
-    <section>
-    <img src="https://i1.sndcdn.com/avatars-000600452151-38sfei-t500x500.jpg" alt="cute cat" id="cat1">
-    </section>
-    <br>
-    <section>
-    <h2>Type</h2>
-    <div>
-    <table>
-      <tr> <td><strong>Gray cat-KiKi</strong></td> </tr>
-      <tr> <td><strong>White cat-MiMi</strong></td> </tr>
-      <tr> <td><strong>Black cat-LaLa</strong></td> </tr>
-    </table>
+    <div class=main id="main">
+        <p class="text">There is a cat picture !</p>
+        <div class="container">
+        <p>Q-cat</p>
+        <div class="cat">
+        <img src="https://scontent.ftpe8-4.fna.fbcdn.net/v/t1.15752-9/257577768_582500749706050_4753139795829127402_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=ae9488&_nc_ohc=r89bwCy_7eAAX_ffX2R&tn=plS3cf-erBaLHSNK&_nc_ht=scontent.ftpe8-4.fna&oh=acb4064ac6d8dd7cac3e9c8684f8a07f&oe=61C02626" alt="Q-cat1" id="cat1" width="300" height="300" class="cat1">
+        </div>
+        <button class="btn" id="click">Hide!</button>
+    </div>  
     </div>
-    <br>
-    <table>
-    <tr>      
-        <th>Type</th>
-        <th>Price</th>
-        <th>Time</th>
-    </tr>
-    <tbody>
-    <tr> <td>Black</td><td>$200</td> <td rowspan="3">1hr</td> </tr>
-    <tr> <td>White</td><td>$300</td> </tr> 
-    <tr> <td>Gray</td><td>$100</td>  </tr>
-        </tbody>
-    </table>
-  </section> 
+  </div>
+  </main>
+</body>
 </html>

@@ -1,36 +1,36 @@
-* {
-  background-color: blanchedalmond;
-}
-.heading {
-  color: cadetblue;
-}
+body{
+    background-color:lightblue;
+  }
 
-h2 {
-  color: darkcyan;
-  font-size: 80px;
-}
+.title{
+    text-align: center;
+    font-size: 100px;
+    color:royalblue;
+  }
 
-ol {
-  font-size: 20px;
-}
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:lightyellow;
+    padding: 2rem;
+    border-style: dotted;
+    border-width: 10px;
+    border-color: darksalmon;
+  }
 
-table, th, td {
-  font-style: oblique;
-  border-style: double;
-  border: 2px solid chocolate;
-  color: darkgreen;
-}
+div.container {
+    height: 400;
+    width: 40%;
+    padding: 3rem;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    border: hidden;
+    }
 
-thead {
-  font-size: 25px;
-  color: rgb(161, 118, 201);
-}
-
-tbody {
-  font-size: 20px;
-}
-img{
-  height: 250px; 
-  width:250px; 
-  border: 10px solid chocolate;
-}
+.text{
+      font-size: 30px;
+      color: darksalmon;
+    }

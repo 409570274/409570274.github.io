@@ -1,0 +1,138 @@
+body{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    background-color:#FFED97;
+    color: #10083C;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+  }
+  .resume{
+    display: flex;
+    max-width: 1000px;
+    height:600px;
+    border: solid 8px #FAFAFE;
+    padding: 50px;
+    position:absolute;
+  }
+
+  .left,.right{
+    padding: 15px;
+  }
+  .left{
+    flex:5;
+    padding-right: 50px;
+    border-right: solid 1px #fff ;
+  }
+  
+  .decoration{
+    width: 440px;
+    height: 180px;
+    border-radius:70px 0 0 70px;
+    position:absolute;
+    right:0; top: 50px;
+  }
+  .right{
+    flex:7;
+    padding-left: 50px;
+    padding-top: 150px;
+  }
+  
+  .listProgram .bar{
+    width: 150px;
+    height: 10px;
+    border: solid 2px #10083C;
+    border-radius: 5px;
+  }
+  .listProgram li{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 5px;
+  }
+  .listProgram .bar{
+    width: 350px;
+    height: 10px;
+    border: solid 2px #10083C;
+    border-radius: 5px;
+  }
+  .listProgram li{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 25px;
+  }
+  .value{
+    width:95%;
+    height:100%;
+    background-color: #F24E2B;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .buttons{
+  
+  background: #ef6c84;
+  border-radius: 1em;
+  padding: 0.5em;
+  height: 65px;
+  width: 300px;
+  }
+
+  #icon{
+    padding-top: 15px;
+    text-align: center;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .introduce{
+    height: 300px;
+    width: 600px;
+}
+  
+  .value.p20{
+    width:20%;
+  }
+  .value.p40{
+    width:40%;
+  }
+  .value.p60{
+    width:60%;
+  }
+  .value.p80{
+    width:80%;
+  }
+  .value.p100{
+    width:100%;
+  }
+
+  #wrapper{ 
+    width: 1000px;
+    height: 850px;  
+    padding-top: 500px;
+    position: absolute;
+    top:300px;
+    display: flex;
+    flex-direction: row;
+  }
+
+.block1{
+    position: relative;
+    left:-50;
+    max-width: fit-content;
+}
+
+.block3{
+    position: relative;
+    left:10px;
+    
+  }
+
+.twitter{
+    position: absolute;
+    padding-top: 1400px;
+    width: 70%;
+  
+}
+  
